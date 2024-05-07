@@ -10,4 +10,9 @@ class ApplicationTest {
     void shouldAnswerWithTrue() {
         assertTrue(true);
     }
+    
+    @Test
+    void addTest() {
+    	new Application().add(1,2);
+    }
 }
